@@ -1,0 +1,26 @@
+#footer{
+    /* border: 1px solid red; */
+    width: 90%;
+    height:500px;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(500px);
+
+
+}
+#footer>div{
+/* border: 1px solid green; */
+line-height: 20px;
+}
+
+#footer>div>p{
+/* font-size: 20px; */
+color: teal;
+}
+#footer>div>h3{
+font-size: 20px;
+font-weight: bold;
+}
