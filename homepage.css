@@ -1,0 +1,232 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+.nav{
+  height:100px;
+  /* border:1px solid red; */
+  background-color: rgb(37, 37, 61);
+  display: flex;
+  padding:0px 80px ;
+  justify-content: space-between;
+  align-items: center;
+  color: #efe7e7;
+}
+
+.nav>div{
+display: flex;
+
+}
+.nav>div:nth-child(1){
+justify-content: space-between;
+/* border:1px solid red; */
+width:30%;
+/* font-weight: bold; */
+font-size: 22px;
+}
+.nav>div:nth-child(1)>p{
+padding: 10px 30px 0px 0px;
+
+}
+img{
+height:60px;
+
+}
+.nav>div:nth-child(2){
+justify-content: space-between;
+/* border:1px solid red; */
+width:45%;
+/* font-weight: bold; */
+font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------- */
+body {
+background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh.jpg");
+background-repeat: no-repeat;
+background-size: 100% 90%;
+/* width:100%;
+height: 500px; */
+/* margin-top: 100px; */
+}
+#front{
+width: 90%;
+height: 400px;
+/* border:1px solid red; */
+margin: auto;
+margin-top: 40px;
+background-color: white;
+}
+#upper{
+width: 50%;
+height: 50px;
+margin: auto;
+display: flex;
+/* border: 1px solid green; */
+justify-content: space-evenly;
+align-items: center;
+/* font-weight: bold; */
+margin-top: 50px;
+font-size: 20px;
+
+}
+/* #upper>div{
+/* border:1px solid red; */
+
+
+#lower{
+width: 90%;
+height: 70px;
+margin: auto;
+display: flex;
+margin-top: 30px;
+/* border: 1px solid green; */
+}
+#going{
+width:40%;
+height:auto;
+border: 1px solid black;
+display: flex;
+justify-content: start;
+align-items: center;
+
+
+
+
+}
+#going>div>p{
+margin-right: 60px;
+}
+#going2{
+margin-left: 10px;
+}
+
+
+.material-icons{
+font-size:48px;
+color:black;
+}
+
+
+#checkin{
+width:20%;
+height:auto;
+border: 1px solid black;
+margin-left: 10px;
+display: flex;
+
+
+}
+#checkin1{
+width:40px;
+height:auto;
+margin:20px 30px;
+}
+#checkin2{
+width:60px;
+height:auto;
+margin-top: 10px;
+margin-left: -40px;
+
+}
+#checkout{
+width:20%;
+height:auto;
+border: 1px solid black;
+margin-left: 10px;
+display: flex;
+
+
+}
+#checkout2>p+p{
+margin-top: -10px;
+}
+#checkin2>p+p{
+margin-top: -10px;
+}
+#checkout1{
+width:40px;
+height:auto;
+margin:20px 30px;
+
+}
+#checkout2{
+width:70px;
+height:auto;
+margin-top: 10px;
+margin-left: -40px;
+
+}
+
+
+#traversals{
+width:30%;
+height:auto;
+border: 1px solid black;
+margin-left: 10px;
+display: flex;
+}
+#traversal1{
+margin-top: 10px;
+margin-left: 10px;
+}
+#traversal2{
+margin-top: 10px;
+margin-left: 10px;
+}
+#sublower{
+width:30%;
+height:70px;
+margin-top: 10px;
+/* border:1px solid red; */
+margin-left: 80px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: 70px;
+}
+#sublower>div{
+/* border:1px solid green; */
+display: flex;
+
+}
+#checkbox1{
+margin: 20px 20px;
+
+} 
+#checkbox2{
+margin: 20px 20px;
+} 
+#sublower1>p{
+margin: 20px 0px;
+}
+#sublower2>p{
+margin: 20px 0px;
+}
+button{
+display: flex;
+align-items: center;
+background-color: rgb(158, 17, 41);
+color: white;
+padding:10px 60px;
+margin-top: 30px;
+margin: auto;
+
+
+} 
