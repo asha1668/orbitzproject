@@ -1,0 +1,44 @@
+#signin{
+    width: 27%;
+    height: 450px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-left: 1200px;
+    margin-top: -3330px;
+    background-color: white;
+    background-image: none;
+}
+#signin>h2{
+    /* margin-top: 40px;
+    margin-left: 20px; */
+    padding: 40px 20px 0px 20px;
+    font-weight: bold;
+   
+}
+#signin>button{
+    display: flex;
+    margin: auto;
+    padding: 10px 200px;
+    background-color: rgb(189, 46, 70);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+#signin>h3{
+    color: teal;
+    text-align: center;
+}
+#signin>p{
+    padding: 10px 20px;
+}
+#signin>p+p{
+    color: teal;
+}
+#signin>h4{
+    padding:40px 30px;
+    color: gray;
+}
+
